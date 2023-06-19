@@ -21,7 +21,7 @@ app.use(
 
 app.use(
     cors({
-        origin: 'https://some-front-test-9098.onrender.com/',
+        origin: 'https://some-front-test-9098.onrender.com',
         methods: ["POST", "PUT", "GET", "DELETE"],
         credentials: true,
     })
