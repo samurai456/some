@@ -9,7 +9,7 @@ app.use(
     session({
         name: "SESS_NAME",
         secret: "SESS_SECRET",
-        saveUninitialized: false,
+        saveUninitialized: true,
         resave: false,
         cookie: {
             secure: true,
