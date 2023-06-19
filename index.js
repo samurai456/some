@@ -35,6 +35,7 @@ app.post('/', (req, res)=>{
         return
     }
     req.session.user = {id: 'someUser', password: 'password11'};
+    req.session.save();
     res.json(JSON.stringify({type: 'making session'}))
 });
 
